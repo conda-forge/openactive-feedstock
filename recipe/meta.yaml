@@ -1,5 +1,5 @@
 {% set name = "openactive" %}
-{% set version = "1.0.1" %}
+{% set version = "2.0.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/openactive-{{ version }}.tar.gz
-  sha256: a3ef993694d8b89d8ccf6771468fa1f0d05231c7e958a14e873db0d1ad9f74ce
+  sha256: 57ec1248a6b21a4663f00f9c5f6a4279d028426b34732d13b84be57db63196fd
 
 build:
   noarch: python
